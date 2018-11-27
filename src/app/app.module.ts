@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SpinnerProvider } from '../providers/spinner/spinner';
+import { AlertProvider } from '../providers/alert/alert';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SpinnerProvider } from '../providers/spinner/spinner';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    SpinnerProvider
+    SpinnerProvider,
+    AlertProvider
   ]
 })
 export class AppModule {}
