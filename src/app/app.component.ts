@@ -24,7 +24,7 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: 'Categorias', component: 'CategoriaPage'},
       { title: 'Meus Pedidos', component: 'MeusPedidosPage'},
-      { title: 'Minha Conta', component: 'MinhaContaPage' }
+      { title: 'Minha Conta', component: 'MinhaContaPage'}
     ];
 
   }
